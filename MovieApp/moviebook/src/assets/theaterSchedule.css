@@ -1,0 +1,57 @@
+.theater-schedule-container {
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+
+  /* ... your existing styles ... */
+
+.theater-schedule-container {
+    position: relative;
+  }
+  
+  .theater-image-container {
+    position: relative;
+  }
+  
+  .theater-schedule-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  
+  .schedule-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .schedule-table th, .schedule-table td {
+    border: 1px solid navy; /* Navy blue border */
+    padding: 8px;
+  }
+  
+  .schedule-table th {
+    background-color: navy; /* Navy blue background */
+    color: white; /* White text color for header */
+  }
+  
+  .schedule-row:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
+  }
+  
+  .theater-name {
+    font-weight: bold;
+  }
+  
+  .movie-timings {
+    font-style: italic;
+    text-decoration: underline;
+    color: blue;
+  }
+  

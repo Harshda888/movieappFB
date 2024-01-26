@@ -1,0 +1,141 @@
+/* Navbar.css or your custom stylesheet */
+nav {
+    background-color: navy;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .icon img {
+    width: 30px; /* Adjust the width of the icon as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    color: #ffd700; /* Change the color on hover as needed */
+  }
+  
+  /* Home.css or your custom stylesheet */
+  .main-background {
+    background-image: url('../assets/account-bg.jpg');
+    background-size: cover;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 60%; /* Adjust the width as needed */
+    /* background: transparent; */
+    outline: none;
+  }
+  
+  .dropdowns {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 115px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .movie-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(190, 3, 3, 0.986); /* Added shadow effect */
+
+  }
+
+  .movie-container {
+    box-sizing: border-box;
+    width: 23%;
+    margin: 10px 0;
+    background-color: navy;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(190, 3, 3, 0.986); /* Added shadow effect */
+    /* Added shadow effect */
+  }
+  
+  .movie-container img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(225, 220, 220, 0.9); /* Added shadow effect */
+    /* Added shadow effect */
+  }
+  
+  .movie-container h3,
+.movie-container p {
+  color: white;
+}
+  h3 {
+    margin: 10px 0;
+    color:"white";
+  }
+
+  p {
+    margin: 5px 0;
+    color:"white";
+
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }

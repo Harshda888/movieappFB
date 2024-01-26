@@ -1,0 +1,65 @@
+/* set.css or your custom stylesheet */
+
+.seat-booking-container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #001232 ;
+    height:100vh; /* Replace with the path to your background image */
+  }
+  
+  .seat-arrangement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .screen-image {
+    margin-bottom: 150px; /* Adjust the margin to add space between the screen and seats */
+  }
+  
+  .seat-row {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  
+  .seat.available {
+    background-color: #aaffaa;
+  }
+  
+  .seat.unavailable {
+    background-color: #ffaaaa;
+  }
+  
+  .seat.selected {
+    background-color: #aaaaff;
+  }
+  
+  .selected-seats {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

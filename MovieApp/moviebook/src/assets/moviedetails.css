@@ -1,0 +1,51 @@
+/* MovieDetails.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-details-wrapper {
+  background-image: url('../assets/account-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the wrapper covers the entire viewport height */
+}
+
+.movie-details-container {
+  max-width: 600px; /* Set a maximum width for the container */
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(62 62 88 / 70%); /* Set alpha channel to 0 for full transparency */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.movie-image-container {
+  margin-bottom: 20px;
+}
+
+.movie-image {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgb(243, 240, 240);
+
+
+}
+
+.movie-details {
+  text-align: left;
+}
+
+.movie-details h2 {
+  color: #00FFFF
+}
+
+.movie-details p {
+  margin-bottom: 10px;
+  color:white
+}
